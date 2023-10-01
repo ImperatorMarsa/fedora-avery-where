@@ -1,3 +1,6 @@
 !include /usr/share/ublue-os/just/100-bling.just
 
-# Include some of your custom scripts here!
+# Switch to the fish shell
+fish:
+  sudo lchsh $USER /usr/bin/fish 
+
